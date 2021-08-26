@@ -469,7 +469,7 @@ img {
   text-align: center;
 }
 .shop-item-img img {
-  width: 180px;
+  /* width: 180px; */
   height: 150px;
 }
 
@@ -802,7 +802,6 @@ img {
     width: 100%;
   }
   .shop-item-img img {
-    width: 300px;
     height: 200px;
   }
 
@@ -933,7 +932,6 @@ img {
   }
 
   .shop-item-img img {
-    width: 300px;
     height: 200px;
   }
 
@@ -1010,5 +1008,15 @@ img {
 
   .dis-none {
     display: none;
+  }
+
+  .apple-store {
+    margin-bottom: 20px;
+  }
+
+  .download .stores.flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
