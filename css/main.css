@@ -739,6 +739,11 @@ img {
     opacity: 1;
   }
 
+  .open-icon {
+    display: block;
+    cursor: pointer;
+  }
+
   .header-navbar ul li a:hover {
     color: var(--wColor);
   }
