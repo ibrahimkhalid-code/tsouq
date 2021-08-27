@@ -251,7 +251,7 @@ img {
 }
 
 .slider-ad--search {
-  padding: 80px 20px;
+  padding: 15px 0px;
   background-color: var(--wColor);
   position: absolute;
   width: 80%;
@@ -709,13 +709,21 @@ img {
   color: var(--wColor);
   font-size: 15px;
 }
+
 /* Small screens, laptops. */
 @media (min-width: 769px) and (max-width: 1300px) {
   .shops-items,
   .carousel-boxs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
+  }
+  .carousel-item .carousel-boxs .services-box:not(:first-child) {
+    display: none;
+  }
+
+  .slider-ad--search {
+    padding-top: 10px 0px;
   }
 
   .header {
@@ -829,6 +837,15 @@ img {
     text-align: center;
   }
 
+  .search-bar-item select {
+    padding: 10px;
+  }
+
+  .search-bar-item svg {
+    top: 48px;
+    left: 30px;
+  }
+
   .header-navbar ul li a {
     color: var(--wColor);
     background-color: green;
@@ -849,6 +866,11 @@ img {
 @media (min-width: 320px) and (max-width: 768px) {
   body {
     background-color: #fff;
+  }
+
+  .shops .shops-items .shop-item:not(:first-child),
+  .carousel-item .carousel-boxs .services-box:not(:first-child) {
+    display: none;
   }
 
   .shop-img,
@@ -1012,6 +1034,14 @@ img {
 
   .apple-store {
     margin-bottom: 20px;
+  }
+
+  .search-bar-item select {
+    padding: 10px;
+  }
+
+  .search-bar-item svg {
+    top: 50px;
   }
 
   .download .stores.flex {
