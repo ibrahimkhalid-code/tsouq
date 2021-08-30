@@ -864,7 +864,7 @@ img {
   }
 
   .footer-navbar {
-    min-width: 310px;
+    min-width: 610px;
   }
 
   .footer-navbar ul li a {
@@ -897,7 +897,6 @@ img {
   .carousel-item .carousel-boxs .services-box:not(:first-child) {
     display: none;
   }
-
   .shop-img,
   .header-search,
   .header-lang,
@@ -944,7 +943,7 @@ img {
   .search-bar {
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     align-items: center;
   }
 
@@ -1080,17 +1079,21 @@ img {
   }
 
   .footer-navbar {
-    min-width: 310px;
+    min-width: 315px;
+    justify-content: center;
+    text-align: center;
   }
 
   .footer-navbar ul li a {
     min-width: 100%;
+    text-align: left;
   }
 
   .footer-navbar ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+    text-align: left;
   }
 
   .footer-contact-list {
